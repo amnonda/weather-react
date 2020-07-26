@@ -97,33 +97,35 @@ function Weather() {
     // }
 	
     function getImage(num) {
-             let an_img = "./Images/01d.png";
-             
-                if (num >= 200 && num <= 232)
-                an_img = "./Images/11d.png";
-                else if (num >= 200 && num <= 232)
-                an_img = "./Images/01d.png";
-                else if (num >= 300 && num <= 321)
-                an_img = "./Images/09d.png";
-                else if (num == 511)
-                an_img = "./Images/13d.png";
-                else if (num >= 520 && num <= 531)
-                an_img = "./Images/09d.png";
-                else if (num >= 600 && num <= 622)
-                an_img = "./Images/13d.png";
-                else if (num >= 701 && num <= 781)
-                an_img = "./Images/50d.png";
-                else if (num == 800)
-                an_img = "./Images/01d.png";
-                else if (num == 801)
-                an_img = "./Images/02d.png";
-                else if (num == 802)
-                an_img = "./Images/03d.png";
-                else if (num >= 803 && num <= 804)
-                an_img = "./Images/04d.png";
-        
-                return an_img;
-            }
+        let an_img = "./Images/01d.png";
+
+        if (num >= 200 && num <= 232)
+            an_img = "./Images/11d.png";
+        else if (num >= 200 && num <= 232)
+            an_img = "./Images/01d.png";
+        else if (num >= 300 && num <= 321)
+            an_img = "./Images/09d.png";
+        else if (num >= 500 && num <= 504)
+            an_img = "./Images/10d.png";
+        else if (num == 511)
+            an_img = "./Images/13d.png";
+        else if (num >= 520 && num <= 531)
+            an_img = "./Images/09d.png";
+        else if (num >= 600 && num <= 622)
+            an_img = "./Images/13d.png";
+        else if (num >= 701 && num <= 781)
+            an_img = "./Images/50d.png";
+        else if (num == 800)
+            an_img = "./Images/01d.png";
+        else if (num == 801)
+            an_img = "./Images/02d.png";
+        else if (num == 802)
+            an_img = "./Images/03d.png";
+        else if (num >= 803 && num <= 804)
+            an_img = "./Images/04d.png";
+
+        return an_img;
+    }
 			
 
     function setApiData(api_data) {
